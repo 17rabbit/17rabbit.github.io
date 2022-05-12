@@ -784,4 +784,171 @@
          font-size: 17px; 
          color:#324950; 
          margin:18px 0 0 0; 
+ } 
+  
+  
+  
+  
+ .page3_header{ 
+         height:602px; 
+ } 
+ .page3_header1{ 
+         height:122px; 
+         padding:1px 0 0 0; 
+         background-color:white; 
+ } 
+ .page3_header1 img{ 
+         display:block; 
+         margin:19px 0 0 250px; 
+         width:166px; 
+         height: 83px; 
+ } 
+ .page3_list1 span{ 
+         margin:0 7px 0 0 ; 
+ } 
+ .page3_search1{ 
+         font-size:16px; 
+         width:350px; 
+         height:28px; 
+         border-bottom:1px solid #000; 
+         background:url(../images/Vector.png) 332px 0 no-repeat; 
+         position: relative; 
+         bottom:82px; 
+         left:1000px; 
+ } 
+ .page3_list1{ 
+         position: relative; 
+         font-size:18px; 
+         width:499px; 
+         height:26px;  
+         position: relative; 
+         bottom:55px; 
+         left:893px; 
+ } 
+ .page3_header2{ 
+         height:480px; 
+         background:url(../images/page3_header_img.jpg) 0 0 no-repeat;  
+ } 
+ .page3_center1{ 
+         background-color: #E5E7E9; 
+         height: 1024px; 
+         padding:1px 0 0 0; 
+ } 
+ .page3_center1_block1{ 
+         width:350px; 
+         height:923px; 
+         margin:51px 0 0 205px; 
+ } 
+ .page3_center1_block1_text1{ 
+         color: #324950; 
+         font-weight: 700; 
+         font-size: 44px; 
+         margin:20px 0 0 0; 
+ } 
+ .page3_center1_block1 img{ 
+         margin:40px 0 70px 4px; 
+         display:block;  
+ } 
+ .page3_center1_block1_textinput{ 
+         color: #324950; 
+         font-size: 17px; 
+         font-weight: 400; 
+         margin:25px 0 10px 4px; 
+ } 
+ .page3_center1_block1_input{ 
+         border: 1px solid #DADADA; 
+         width: 350px; 
+         height: 55px; 
+         background-color:white;  
+         border-radius: 10px; 
+ } 
+ .page3_center1_block2{ 
+         width:635px; 
+         height:763px; 
+         margin:-760px 0 0 660px; 
+ } 
+ .page3_center1_block2_text1{ 
+         color: #324950; 
+         font-size: 17px; 
+         margin:0 0 0 2px; 
+ } 
+ .page3_center1_block2_input1{ 
+         width: 635px; 
+ height: 55px; 
+ background:url(../images/page3_arrow_input.png) 600px 23px no-repeat ,#FFFFFF; 
+ border: 1px solid #DADADA; 
+ border-radius: 10px; 
+ margin:11px 0 0 0; 
+ color: #324950; 
+         font-size: 17px; 
+         padding:18px 0 0 11px; 
+ } 
+ .page3_center1_block2_text2{ 
+         color: #324950; 
+         font-size: 17px; 
+         margin: 22px 0 0 2px; 
+ } 
+ .page3_center1_block2_input2{ 
+         width: 635px; 
+ height: 55px; 
+ background-color:#FFFFFF; 
+ border: 1px solid #DADADA; 
+ border-radius: 10px; 
+ margin:11px 0 0 0; 
+ } 
+ .page3_center1_block2_input3{ 
+                 width: 635px; 
+ height: 390px; 
+ background-color:#FFFFFF; 
+ border: 1px solid #DADADA; 
+ border-radius: 10px; 
+ margin:11px 0 0 0; 
+ } 
+ .page3_center1_block2 img{ 
+         display: block; 
+         margin:23px 0 0 0; 
+ } 
+ .page3_center1_block2_input4{ 
+         width: 225px; 
+ height: 55px; 
+ background-color:#FFFFFF; 
+ border: 1px solid #DADADA; 
+ border-radius: 10px; 
+ margin:-41px 0 0 140px; 
+ } 
+ .page3_center1_block2_button 
+ { 
+         padding:18px 0 0 55px; 
+         width: 225px; 
+ height: 55px; 
+ border: 1px solid #DADADA; 
+ border-radius: 10px; 
+ margin:-55px 0 0 408px; 
+ background: #57984C; 
+ font-size: 17px; 
+ color: #FFFFFF; 
+ } 
+ .page3_center2{ 
+         padding:1px 0 0 0; 
+ height: 250px; 
+ } 
+ .page3_center2_text1{ 
+         margin:45px 0 0 44%; 
+         text-align: center; 
+         color: #57984C; 
+         font-weight: 700; 
+         font-size: 20px; 
+         width:183px; 
+         height: 41px; 
+         border-bottom:1px solid #57984C; 
+ } 
+ .page3_center2_p{ 
+         margin:15px 0 0 0; 
+         text-align: center; 
+         line-height: 150%; 
+         color: #324950; 
+         font-size: 17px; 
+ } 
+ .page3_center2 span{ 
+         color:#57984C; 
  }
