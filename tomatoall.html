@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Tomato all</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div class="wrapper" id="app">
+		<header class="page1_header">
+			<div class="page1_header__container">
+				<div class="page1_header__content">
+					<div class="page1_header__logo">
+						<a href="index.html"><img src="images/Logo2.png" ></a>
+					</div>
+					<div class="burger_block_2">
+							<img src="images/burger1_121003.png" class="burger_2">
+							<ul class="burger_block_ul1">
+								<a href="index.html"><li>Home</li></a>
+								<li>Company Profile</li>
+								<li>Products</li>
+								<li>Services</li>
+								<li>R & D</li>
+								<a href="contactas.html"><li>Contact</li></a>
+							</ul>
+						</div>
+					<div class="page1_header__search-nav">
+						<div class="page1_header__search">Search</div>
+						<div class="page1_header__nav">
+							<ul>
+								<a href="index.html"><li>Home</li></a>
+								<li>Company Profile</li>
+								<li>Products</li>
+								<li>Services</li>
+								<li>R & D</li>
+								<a href="contactas.html"><li>Contact</li></a>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class=" page1_center-top page1_center-top-fon2" ></div>
+		<div class="page1_center">
+			<div class="page1_center__container">
+				<div class="page1_center__content1">
+					<h2 class="page1_center__text-header">{{text1}}</h2>
+					<img src="images/Union.png" class="page1_center__text-union">
+					<div class="page1_center__text-paragraph">
+						<p>Agridera aims to be one of the world's leading companies in the breeding, production, and marketing of tomato seeds. <span>We invest
+							intensively in research and development to provide solutions to growers and consumers in numerous countries around the world.</span>
+							In particular, we breed improved disease-resistant cultivars adapted to different markets globally.</p> <br>
+						<p>Currently, emphasis is placed on combining Tomato Yellow Leaf Curl Virus (TYLCV) and Tomato Spotted Wilt Virus (TSWV) resistances
+							with other soil borne diseases into superior tomato breeding lines and hybrids. Moreover, comprehensive efforts are being undertaken to
+							develop varieties resistance to TBRFV virus (Tomato Brown Rugose Fruit Virus).</p> <br>
+						<p>In terms of horticultural traits, breeding is for earliness, different fruit sizes, firmness, red fruit color, flavor, crack resistance, shelf life,
+							and high/low temperature fruit set. Combinations of quality features and disease resistance are sought in a variety of types, namely
+							round and elongated shapes.</p>
+					</div>
+					<div class="page1_center__text1">
+						Agirdera Tomato breeding programs are focusing on three main segments: Greenhouse Indeterminate Tomatoes, Open-field
+						Indeterminate Tomatoes, and Bush Type Open-field Tomatoes.
+					</div>
+					<div class="page1_center__text-block">
+						<div class="page1_center__text-block1">
+							<h2>Greenhouse Tomato Breeding Program</h2>
+							<div>
+								<span>This breeding is aimed for the Spanish and
+								Turkish markets.</span> For single and cluster
+								picks, round fruit shape and resistances of
+								TYLCV, TSWV, Nematodes and FORL
+								(Fusarium oxysporum f.sp.
+								radicis-lycopersici). Some hybrids may
+								include more resistances, such as
+								Cladosporium and Leveillula Taurica (Lv). 
+							</div>
+						</div>
+						<div class="page1_center__text-block2">
+							<h2>Open-field Indeterminate Tomatoes</h2>
+							<div>
+								<span>This breeding is for Brazilian, Moroccan,
+								and Turkish markets.</span> The main focus is on
+								large round shape fruits (200 grams plus);
+								and resistances of TYLCV, TSWV,
+								Nematodes and FORL. In the near future, F3
+								(Fusarium oxysporum f.sp. lycopersici) will
+								be included as basic resistance in our
+								cultivars.
+							</div>
+						</div>
+						<div class="page1_center__text-block3">
+							<h2>Open-field Bush Type <br>Tomatoes</h2>
+							<div>
+								<span>This breeding is for Mediterranean
+								markets.</span> We breed round and elongated
+								shapes, standard sizes (140- 180 grams),
+								and beef sizes (min. 180 grams up to 300
+								grams and more). We combine the
+								resistances of TYLCV, TSWV and
+								Nematodes as basic resistances in our
+								hybrids. However, some hybrids may
+								include more resistances, such as
+								Cladosporium and Leveillula Taurica (Lv).
+							</div>
+						</div>
+					</div>
+					<div class="page1_center__text2">
+						Agridera operates through international and local distributers around the world. 
+					</div>
+				</div>
+			<div class="page1_center__block-img">
+						<div class="page1_center__block123-img">
+							<a :href="'tomatoone.html#'+item.id" v-if="products" v-for="item in products">
+							<div class="page1_center__block1-img">
+							<img v-bind:src="item.image" alt="" class=q31231223>
+							<h2>{{item.title}}</h2>
+							<p>{{item.short_text}}</p>
+							</div>
+							</a>
+						</div>
+						</div>
+						
+			</div>
+			</div>
+			<footer class="footer">
+					<div class="footer1">
+						<div class="footer1_container">
+							<div class="footer1_content">
+								<div class="footer1_list">
+									<ul>
+										<li>PROFILE</li>
+										<li>MANAGEMENT</li>
+										<li>PRODUCTS</li>
+										<li>R&D</li>
+										<li>LINKS</li>
+										<li>SITEMAP </li>
+										<li>CONTACT</li>
+									</ul>
+								</div>
+							<div class="footer1_el">
+								<div class="footer1_element">
+								<img src="images/l1.png" alt="">
+								<img src="images/l2.png" alt="">
+								<img src="images/l3.png" alt="">
+								<img src="images/l4.png" alt="">
+								<img src="images/l5.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="footer2">
+						AGRIDERA SEEDS & AGRICULTURE LTD. © 2020
+					</div>
+				</footer>
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
